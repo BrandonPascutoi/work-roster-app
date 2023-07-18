@@ -3,7 +3,7 @@ import gatherAndGatherLogo from '../../images/gather-and-gather-logo.png';
 
 const GatherAndGatherLogo = () => {
     return (
-        <img src={gatherAndGatherLogo}></img>
+        <img className='mt-4 h-25' src={gatherAndGatherLogo}></img>
     )
 }
 
