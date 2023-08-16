@@ -28,21 +28,21 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={1} colSpan={3} className="one-cell-height">Name</th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
-                    <th rowSpan={2} className="two-cell-height"></th>
+                    <th rowSpan={2} className="two-cell-height">Weekly Hours</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
+                    <th rowSpan={2} className="two-cell-height">Start</th>
+                    <th rowSpan={2} className="two-cell-height">Finish</th>
                 </tr>
                 <tr>
                     <th rowSpan={1} colSpan={3} className="one-cell-height">Employee Number</th>
