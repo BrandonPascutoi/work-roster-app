@@ -1,31 +1,11 @@
 table {
     table-layout: fixed;
-}
-
-th,
-td {
     font-size: 0.35em;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
 }
 
-.one-cell-height {
-    height: 4.5454%
-}
-
-.two-cell-height {
-    height: 9.0909%
-}
-
-.three-cell-height {
-    height: 13.6363%
-}
-
-.four-cell-height {
-    height: 18.1818%
-}
-
-.six-cell-height {
-    height: 27.2727%
+tr {
+    height: 4.5454%;
 }
