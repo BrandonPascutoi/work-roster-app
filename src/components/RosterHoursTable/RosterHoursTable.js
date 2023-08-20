@@ -4,7 +4,7 @@ const RosterHoursTable = () => {
     return (
         <table className='mt-3 h-100 w-100 table-bordered'>
             <tbody>
-                <tr className='two-cell-height'>
+                <tr>
                     <th rowSpan={4} colSpan={4}>Employee Information</th>
                     <th rowSpan={3} colSpan={2}>Monday</th>
                     <th rowSpan={3} colSpan={2}>Tuesday</th>
@@ -15,9 +15,9 @@ const RosterHoursTable = () => {
                     <th rowSpan={3} colSpan={2}>Sunday</th>
                     <th rowSpan={6} colSpan={4}>Total Week Hours</th>
                 </tr>
-                <tr className='one-cell-height'></tr>
-                <tr className='one-cell-height'></tr>
-                <tr className="one-cell-height">
+                <tr></tr>
+                <tr></tr>
+                <tr>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
@@ -26,7 +26,7 @@ const RosterHoursTable = () => {
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                 </tr>
-                <tr className="one-cell-height">
+                <tr>
                     <th rowSpan={1} colSpan={3}>Name</th>
                     <th rowSpan={2} >Weekly Hours</th>
                     <th rowSpan={2} >Start</th>
@@ -44,165 +44,173 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} >Start</th>
                     <th rowSpan={2} >Finish</th>
                 </tr>
-                <tr className="one-cell-height">
+                <tr>
                     <th rowSpan={1} colSpan={3}>Employee Number</th>
                 </tr>
                 <tr>
-                    <th colSpan={3}></th>
+                    <th rowSpan={2} colSpan={3}>Aisling McCurtin</th>
+                    <th rowSpan={4}></th>
                     <th rowSpan={2}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={4}></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={2}></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
                     <th rowSpan={2}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={4}></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={2}></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
                     <th rowSpan={2}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={4}></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={2}></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th colSpan={3}></th>
                     <th rowSpan={2}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={4}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={4}></th>
                 </tr>
+                <tr></tr>
                 <tr>
-                    <th colSpan={3}></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th colSpan={2}></th>
-                    <th></th>
+                    <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2}></th>
                 </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}>Brandon Pascutoi</th>
+                    <th rowSpan={4}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={4}></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2}></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}>Mahan Salavati</th>
+                    <th rowSpan={4}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={4}></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2}></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}>Anthony Cheung</th>
+                    <th rowSpan={4}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={4}></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2}></th>
+                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2}></th>
+                </tr>
+                <tr></tr>
             </tbody>
         </table>
     )
