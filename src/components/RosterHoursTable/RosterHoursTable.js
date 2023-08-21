@@ -64,24 +64,24 @@ const RosterHoursTable = () => {
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={4}></th>
+                    <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2} colSpan={2}></th>
@@ -105,24 +105,24 @@ const RosterHoursTable = () => {
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={4}></th>
+                    <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <th rowSpan={2} colSpan={3}></th>
+                <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2} colSpan={2}></th>
@@ -146,24 +146,24 @@ const RosterHoursTable = () => {
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={4}></th>
+                    <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2} colSpan={2}></th>
@@ -187,24 +187,24 @@ const RosterHoursTable = () => {
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={4}></th>
+                    <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2}>Total:</th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2}></th>
                     <th rowSpan={2} colSpan={2}></th>
