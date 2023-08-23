@@ -1,9 +1,29 @@
+import { useEffect, useState } from 'react';
 import './RosterHoursTable.css'
 
 const RosterHoursTable = () => {
+
+    const [isPortrait, setIsPortrait] = useState(window.matchMedia("(orientaion: portrait)").matches);
+
+    useEffect(() => {
+        const handleOrientationChange = event => {
+            setIsPortrait(event.matches)
+        }
+
+        const portraitMediaQuery = window.matchMedia("(orientation: portrait)");
+        portraitMediaQuery.addEventListener("change", handleOrientationChange);
+        handleOrientationChange(portraitMediaQuery);
+
+        return () => {
+            portraitMediaQuery.removeEventListener("change", handleOrientationChange);
+        };
+        
+        
+    }, [])
+
     return (
         <table className='mt-3 h-100 w-100 table-bordered'>
-            <tbody>
+            {isPortrait ? <tbody></tbody> : <tbody>
                 <tr>
                     <th rowSpan={4} colSpan={4}>Employee Information</th>
                     <th rowSpan={3} colSpan={2}>Monday</th>
@@ -211,9 +231,9 @@ const RosterHoursTable = () => {
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
-            </tbody>
+            </tbody>}
         </table>
-    )
+        )
 }
 
 export default RosterHoursTable;
