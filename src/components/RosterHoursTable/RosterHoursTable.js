@@ -25,10 +25,7 @@ const RosterHoursTable = () => {
         <table className='mt-3 h-100 w-100 table-bordered'>
             {isPortrait ? <tbody>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th rowSpan={4} colSpan={4}>Employee Information</th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -51,21 +48,185 @@ const RosterHoursTable = () => {
                 <tr></tr>
                 <tr></tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Mon</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Tue</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Wed</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Thur</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Fri</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Sat</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
+                <tr>
+                    <th rowSpan={2} colSpan={2}>Sun</th>
+                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                    <th rowSpan={4} colSpan={6}>Total Hours</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
                 <tr></tr>
                 <tr></tr>
                 <tr></tr>
