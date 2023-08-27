@@ -27,10 +27,10 @@ const RosterHoursTable = () => {
                 <tr>
                     <th rowSpan={4} colSpan={4}>Employee Information</th>
                     <th rowSpan={2} colSpan={2}>Name:</th>
-                    <th rowSpan={2} colSpan={4}></th>
-                    <th rowSpan={2} colSpan={4}></th>
-                    <th rowSpan={2} colSpan={4}></th>
-                    <th rowSpan={2} colSpan={4}></th>
+                    <th rowSpan={2} colSpan={4}>Aisling McCurtin</th>
+                    <th rowSpan={2} colSpan={4}>Brandon Pascutoi</th>
+                    <th rowSpan={2} colSpan={4}>Mahan Salavati</th>
+                    <th rowSpan={2} colSpan={4}>Anthony Cheung</th>
                 </tr>
                 <tr></tr>
                 <tr>
@@ -45,192 +45,195 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={2}>Mon</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Tue</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Wed</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Thur</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Fri</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Sat</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
                     <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2}>Sun</th>
                     <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}>Total:</th>
                 </tr>
                 <tr>
                     <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
+                    <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={4} colSpan={6}>Total Hours</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th rowSpan={4} colSpan={6}>Total Week Hours</th>
+                    <th colSpan={4}>Total Hours:</th>
+                    <th colSpan={4}>Total Hours:</th>
+                    <th colSpan={4}>Total Hours:</th>
+                    <th colSpan={4}>Total Hours:</th>
                 </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                </tr>
+                <tr>
+                    <th colSpan={4}>Signed:</th>
+                    <th colSpan={4}>Signed:</th>
+                    <th colSpan={4}>Signed:</th>
+                    <th colSpan={4}>Signed:</th>
+                </tr>
+                <tr>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                    <th colSpan={4}></th>
+                </tr>
             </tbody> : 
             <tbody>
                 <tr>
