@@ -9,3 +9,12 @@ table {
 tr {
     height: 4.5454%;
 }
+
+.dark-brown {
+    background-color: #635332;
+    color: white;
+}
+
+.light-blue {
+    background-color: #79989B;
+}
