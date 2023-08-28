@@ -1,6 +1,6 @@
 table {
     table-layout: fixed;
-    font-size: 0.35em;
+    font-size: 0.4em;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
@@ -13,6 +13,10 @@ tr {
 .dark-brown {
     background-color: #635332;
     color: white;
+}
+
+.light-brown {
+    background-color: #9E9578;
 }
 
 .light-blue {
