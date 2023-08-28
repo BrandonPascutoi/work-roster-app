@@ -33,7 +33,7 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={4}>Anthony Cheung</th>
                 </tr>
                 <tr></tr>
-                <tr>
+                <tr className='light-brown'>
                     <th rowSpan={2} colSpan={2}>Empl no:</th>
                     <th rowSpan={2} colSpan={4}></th>
                     <th rowSpan={2} colSpan={4}></th>
@@ -46,15 +46,15 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -66,19 +66,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -90,19 +90,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -114,19 +114,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -138,19 +138,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -162,19 +162,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -186,19 +186,19 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                     <th colSpan={2}></th>
-                    <th colSpan={2}>Total:</th>
+                    <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={2}>Finish:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}></th>
@@ -216,7 +216,7 @@ const RosterHoursTable = () => {
                     <th colSpan={4}>Total Hours:</th>
                     <th colSpan={4}>Total Hours:</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={4}></th>
                     <th colSpan={4}></th>
                     <th colSpan={4}></th>
@@ -228,7 +228,7 @@ const RosterHoursTable = () => {
                     <th colSpan={4}>Signed:</th>
                     <th colSpan={4}>Signed:</th>
                 </tr>
-                <tr>
+                <tr className='light-brown'>
                     <th colSpan={4}></th>
                     <th colSpan={4}></th>
                     <th colSpan={4}></th>
@@ -260,63 +260,63 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={1} colSpan={3}>Name</th>
-                    <th rowSpan={2} >Weekly Hours</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
-                    <th rowSpan={2} >Start</th>
-                    <th rowSpan={2} >Finish</th>
+                    <th rowSpan={2}>Weekly Hours</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
+                    <th rowSpan={2}>Start</th>
+                    <th rowSpan={2} className='light-brown'>Finish</th>
                 </tr>
                 <tr>
-                    <th rowSpan={1} colSpan={3}>Employee Number</th>
+                    <th rowSpan={1} colSpan={3} className='light-brown'>Employee Number</th>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}>Aisling McCurtin</th>
                     <th rowSpan={4}></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <th rowSpan={2} colSpan={3}></th>
-                    <th rowSpan={2}>Total:</th>
+                    <th rowSpan={2} colSpan={3} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2} colSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
@@ -324,40 +324,40 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={3}>Brandon Pascutoi</th>
                     <th rowSpan={4}></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
-                <th rowSpan={2} colSpan={3}></th>
-                    <th rowSpan={2}>Total:</th>
+                    <th rowSpan={2} colSpan={3} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2} colSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
@@ -365,40 +365,40 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={3}>Mahan Salavati</th>
                     <th rowSpan={4}></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <th rowSpan={2} colSpan={3}></th>
-                    <th rowSpan={2}>Total:</th>
+                    <th rowSpan={2} colSpan={3} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2} colSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
@@ -406,40 +406,40 @@ const RosterHoursTable = () => {
                     <th rowSpan={2} colSpan={3}>Anthony Cheung</th>
                     <th rowSpan={4}></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</th>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <th rowSpan={2} colSpan={3}></th>
-                    <th rowSpan={2}>Total:</th>
+                    <th rowSpan={2} colSpan={3} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
+                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <th rowSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}>Total:</th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2}></th>
-                    <th rowSpan={2} colSpan={2}></th>
+                    <th rowSpan={2} colSpan={2} className='light-brown'></th>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
