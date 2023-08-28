@@ -25,7 +25,7 @@ const RosterHoursTable = () => {
         <table className='mt-3 h-100 w-100 table-bordered'>
             {isPortrait ? <tbody>
                 <tr>
-                    <th rowSpan={4} colSpan={4}>Employee Information</th>
+                    <th rowSpan={4} colSpan={4} className='dark-brown'>Employee Information</th>
                     <th rowSpan={2} colSpan={2}>Name:</th>
                     <th rowSpan={2} colSpan={4}>Aisling McCurtin</th>
                     <th rowSpan={2} colSpan={4}>Brandon Pascutoi</th>
@@ -42,8 +42,8 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr></tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Mon</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -66,8 +66,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Tue</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -90,8 +90,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Wed</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -114,8 +114,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Thur</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -138,8 +138,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Fri</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -162,8 +162,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Sat</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -186,8 +186,8 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={2} colSpan={2}>Sun</th>
-                    <th rowSpan={2} colSpan={2}>&gt;Date&lt;</th>
+                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
+                    <th rowSpan={2} colSpan={2} className='light-blue'>&gt;Date&lt;</th>
                     <th colSpan={2}>Start:</th>
                     <th colSpan={2}></th>
                     <th colSpan={2}>Total:</th>
@@ -210,7 +210,7 @@ const RosterHoursTable = () => {
                     <th colSpan={2}></th>
                 </tr>
                 <tr>
-                    <th rowSpan={4} colSpan={6}>Total Week Hours</th>
+                    <th rowSpan={4} colSpan={6} className='dark-brown'>Total Week Hours</th>
                     <th colSpan={4}>Total Hours:</th>
                     <th colSpan={4}>Total Hours:</th>
                     <th colSpan={4}>Total Hours:</th>
@@ -236,7 +236,7 @@ const RosterHoursTable = () => {
                 </tr>
             </tbody> : 
             <tbody>
-                <tr>
+                <tr className='dark-brown'>
                     <th rowSpan={4} colSpan={4}>Employee Information</th>
                     <th rowSpan={3} colSpan={2}>Monday</th>
                     <th rowSpan={3} colSpan={2}>Tuesday</th>
@@ -249,7 +249,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr></tr>
                 <tr></tr>
-                <tr>
+                <tr className='light-blue'>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
                     <th colSpan={2}>&gt;Insert Date&lt;</th>
