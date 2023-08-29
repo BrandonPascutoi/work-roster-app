@@ -282,164 +282,164 @@ const RosterHoursTable = () => {
                 <tr>
                     <th rowSpan={2} colSpan={3}>Aisling McCurtin</th>
                     <th rowSpan={4}></th>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <td rowSpan={2} colSpan={3} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}>Brandon Pascutoi</th>
                     <th rowSpan={4}></th>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <td rowSpan={2} colSpan={3} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}>Mahan Salavati</th>
                     <th rowSpan={4}></th>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <td rowSpan={2} colSpan={3} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={3}>Anthony Cheung</th>
                     <th rowSpan={4}></th>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
-                    <td rowSpan={2}></td>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <td rowSpan={2} contentEditable></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
                 </tr>
                 <tr></tr>
                 <tr>
-                    <td rowSpan={2} colSpan={3} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown'></td>
+                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
                 </tr>
                 <tr></tr>
