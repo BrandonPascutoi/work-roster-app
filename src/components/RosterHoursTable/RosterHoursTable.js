@@ -22,7 +22,7 @@ const RosterHoursTable = () => {
     }, [])
 
     return (
-        <table className='mt-3 h-100 w-100 table-bordered'>
+        <table className='w-100 table-bordered'>
             {isPortrait ? <tbody>
                 <tr>
                     <th rowSpan={4} colSpan={4} className='dark-brown'>Employee Information</th>
