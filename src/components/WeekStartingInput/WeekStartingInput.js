@@ -1,5 +1,5 @@
 import './WeekStartingInput.css';
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { MyContext } from '../../myContext';
 
 const WeekStartingInput = () => {
@@ -7,8 +7,7 @@ const WeekStartingInput = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault(); // Prevent the default form submission behavior
-        setDate(document.getElementById("dateInput").value)
-        console.log(date)
+        setDate(document.getElementById("dateInput").value);
     };
 
     return (
