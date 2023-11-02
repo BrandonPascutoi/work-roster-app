@@ -1,23 +1,21 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { MyContext } from "../../../myContext";
 import './DateUserInputTableData.css'
 
 const DateInputCell = props => {
     const { date, setDate } = useContext(MyContext);
+    let dateCell = null;
+
+    const dateObj = new Date(date)
 
     if (date === '') {
-        return (
-        <td rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>&gt;Date&lt;</td>
-        )
+        dateCell = <td key={props.dateIncrement} rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>&gt;Date&lt;</td>
     } else {
-        const dateObj = new Date(date)
-
-        console.log(dateObj.getDate() + 1)
-        return (
-            <td rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>{date}</td>
-        )
+        dateObj.setDate(dateObj.getDate() + props.dateIncrement);
+        dateCell = <td key={props.dateIncrement} rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>{`${dateObj.getDate()}/${dateObj.getMonth() + 1}/ ${dateObj.getFullYear()}`}</td>
     }
-    
+
+    return dateCell;
 }
 
 export default DateInputCell;
