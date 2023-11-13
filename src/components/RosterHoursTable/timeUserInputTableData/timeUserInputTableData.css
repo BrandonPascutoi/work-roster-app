@@ -1,0 +1,10 @@
+.timeInputCell {
+    all: unset;
+    font-size: 0.8em;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    margin: 0;
+    background-color: transparent;
+    position: relative;
+}
