@@ -1,24 +1,20 @@
 import React, { useState } from 'react';
+import './TimeUserInputTableData.css'
 
-function TimeInputCell() {
+function TimeInputCell(props) {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = (event) => {
-    const inputText = event.target.value;
-
-    // Validate input format
-    if (/^\d{0,2}:\d{0,2}$/.test(inputText)) {
-      setInputValue(inputText);
-    }
+    setInputValue(event.target.value);
   };
 
   return (
-    <td>
+    <td rowSpan={props.rowSpan} colSpan={props.colSpan}>
       <input
-        type="text"
+        type="time"
         value={inputValue}
         onChange={handleInputChange}
-        placeholder="00:00"
+        className='timeInputCell h-100 w-100 d-flex justify-content-between align-items-center'
       />
     </td>
   );
