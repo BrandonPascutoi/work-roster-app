@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './RosterHoursTable.css'
 import DateInputCell from './DateUserInputTableData/DateUserInputTableData';
+import TimeInputCell from './TimeUserInputTableData/TimeUserInputTableData';
 
 const RosterHoursTable = () => {
 
@@ -36,178 +37,178 @@ const RosterHoursTable = () => {
                 <tr></tr>
                 <tr className='light-brown'>
                     <th rowSpan={2} colSpan={2}>Empl no:</th>
-                    <td rowSpan={2} colSpan={4} contentEditable></td>
-                    <td rowSpan={2} colSpan={4} contentEditable></td>
-                    <td rowSpan={2} colSpan={4} contentEditable></td>
-                    <td rowSpan={2} colSpan={4} contentEditable></td>
+                    <td rowSpan={2} colSpan={4}></td>
+                    <td rowSpan={2} colSpan={4}></td>
+                    <td rowSpan={2} colSpan={4}></td>
+                    <td rowSpan={2} colSpan={4}></td>
                 </tr>
                 <tr></tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
-                    <DateInputCell dateIncrement={1} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
-                    <DateInputCell dateIncrement={2} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
-                    <DateInputCell dateIncrement={3} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
-                    <DateInputCell dateIncrement={4} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
-                    <DateInputCell dateIncrement={5} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
-                    <DateInputCell dateIncrement={6} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
                 </tr>
                 <tr className='light-brown'>
-                    <th colSpan={2}>Finish:</th>
+                    <th colSpan={2}>Finish</th>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
-                    <td colSpan={2}></td>
+                    <TimeInputCell colSpan={2}/>
                     <td colSpan={2}></td>
                 </tr>
                 <tr>
