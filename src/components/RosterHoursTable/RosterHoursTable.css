@@ -3,10 +3,8 @@ table {
     font-size: 0.4em;
     text-align: center;
     vertical-align: middle;
-    overflow: hidden;
     height: 70vh;
-    position: relative;
-    top: 2.5%;
+    margin-top: 5%;
 }
 
 tr {
