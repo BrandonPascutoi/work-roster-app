@@ -3,19 +3,21 @@ import './App.css'
 import GatherAndGatherLogo from './components/GatherAndGatherLogo/GatherAndGatherLogo';
 import WeekStartingInput from './components/WeekStartingInput/WeekStartingInput';
 import RosterHoursTable from './components/RosterHoursTable/RosterHoursTable';
+import CalculateButton from './components/CalculateButton/CalculateButton';
 import { MyContext } from './myContext';
 
 function App() {
   const [date, setDate] = useState("");
 
   return (
-    <div className="App h-100 d-flex flex-column align-items-center container-fluid">
-      <GatherAndGatherLogo />
-      <MyContext.Provider value={{ date, setDate }}>
+    <MyContext.Provider value={{ date, setDate }}>
+      <div className="App d-flex flex-column align-items-center container-fluid">
+        <GatherAndGatherLogo />
         <WeekStartingInput />
         <RosterHoursTable />
-      </MyContext.Provider>
-    </div>
+        <CalculateButton />
+      </div>
+    </MyContext.Provider>
   );
 }
 
