@@ -10,7 +10,7 @@ function App() {
   const [date, setDate] = useState("");
 
   return (
-    <MyContext.Provider value={{ date, setDate }}>
+    <MyContext.Provider value={{date: [ date, setDate ]}}>
       <div className="App d-flex flex-column align-items-center container-fluid">
         <GatherAndGatherLogo />
         <WeekStartingInput />
