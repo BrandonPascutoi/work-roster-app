@@ -69,7 +69,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={1} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
@@ -93,7 +93,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={2} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
@@ -117,7 +117,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={3} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
@@ -141,7 +141,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={4} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
@@ -165,7 +165,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={5} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
@@ -189,7 +189,7 @@ const RosterHoursTable = () => {
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
-                    <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={6} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
