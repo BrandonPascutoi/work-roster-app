@@ -3,11 +3,12 @@ import { useContext, useEffect } from "react";
 import { MyContext } from '../../myContext';
 
 const WeekStartingInput = () => {
-    const { date, setDate } = useContext(MyContext);
+    const { date } = useContext(MyContext);
+    const [dateValue, setDateValue] = date;
 
     const handleSubmit = (event) => {
         event.preventDefault(); // Prevent the default form submission behavior
-        setDate(document.getElementById("dateInput").value);
+        setDateValue(document.getElementById("dateInput").value);
     };
 
     return (
