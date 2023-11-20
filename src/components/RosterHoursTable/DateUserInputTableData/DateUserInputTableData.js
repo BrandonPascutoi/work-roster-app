@@ -3,13 +3,15 @@ import { MyContext } from "../../../myContext";
 import './DateUserInputTableData.css'
 
 const DateInputCell = props => {
-    const { date, setDate } = useContext(MyContext);
+    const { date } = useContext(MyContext);
+    const [dateValue, setDateValue] = date;
+    
     let dateCell = null;
 
-    const dateObj = new Date(date)
+    const dateObj = new Date(dateValue);
 
-    if (date === '') {
-        dateCell = <td key={props.dateIncrement} rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>&gt;Date&lt;</td>
+    if (dateValue === '') {
+        dateCell = <td key={props.dateIncrement} rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>--/--/--</td>
     } else {
         dateObj.setDate(dateObj.getDate() + props.dateIncrement);
         dateCell = <td key={props.dateIncrement} rowSpan={props.rowSpan} colSpan={props.colSpan} className='light-blue date'>{`${dateObj.getDate()}/${dateObj.getMonth() + 1}/ ${dateObj.getFullYear()}`}</td>
