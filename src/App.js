@@ -8,10 +8,17 @@ import { MyContext } from './myContext';
 
 function App() {
   const [date, setDate] = useState("");
+  const [startTimes, setTimesHours] = useState("--:--");
+  const [finishTimes, setFinishTimes] = useState("--:--");
   const [totalHours, setTotalHours] = useState("--Hrs");
 
   return (
-    <MyContext.Provider value={{date: [ date, setDate ], totalHours: [ totalHours, setTotalHours ]}}>
+    <MyContext.Provider value={{
+    date: [ date, setDate ], 
+    startTimes: [startTimes, setTimesHours], 
+    finishTimes: [finishTimes, setFinishTimes], 
+    totalHours: [ totalHours, setTotalHours ]
+    }}>
       <div className="App d-flex flex-column align-items-center container-fluid">
         <GatherAndGatherLogo />
         <WeekStartingInput />
