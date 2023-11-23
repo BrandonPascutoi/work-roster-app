@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './RosterHoursTable.css'
 import DateInputCell from './DateUserInputTableData/DateUserInputTableData';
 import TimeInputCell from './TimeUserInputTableData/TimeUserInputTableData';
+import TotalHoursWorkedValueCell from './TotalHoursWorkedValueCell/TotalHoursWorkedValueCell';
 
 const RosterHoursTable = () => {
 
@@ -59,13 +60,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
@@ -83,13 +84,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
@@ -107,13 +108,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
@@ -131,13 +132,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
@@ -155,13 +156,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
@@ -179,13 +180,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
@@ -203,13 +204,13 @@ const RosterHoursTable = () => {
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
-                    <td colSpan={2}></td>
+                    <TotalHoursWorkedValueCell />
                 </tr>
                 <tr>
                     <th rowSpan={4} colSpan={6} className='dark-brown'>Total Week Hours</th>
