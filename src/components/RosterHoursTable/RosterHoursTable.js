@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import './RosterHoursTable.css'
+import './RosterHoursTable.css';
 import DateInputCell from './DateUserInputTableData/DateUserInputTableData';
 import TimeInputCell from './TimeUserInputTableData/TimeUserInputTableData';
 import TotalHoursWorkedValueCell from './TotalHoursWorkedValueCell/TotalHoursWorkedValueCell';
+import TableRow from './TableRow/TableRow';
 
 const RosterHoursTable = () => {
 
@@ -27,14 +28,7 @@ const RosterHoursTable = () => {
     return (
         <table className='w-100 table-bordered'>
             {isPortrait ? <tbody>
-                <tr>
-                    <th rowSpan={4} colSpan={4} className='dark-brown'>Employee Information</th>
-                    <th rowSpan={2} colSpan={2}>Name:</th>
-                    <th rowSpan={2} colSpan={4}>Aisling McCurtin</th>
-                    <th rowSpan={2} colSpan={4}>Brandon Pascutoi</th>
-                    <th rowSpan={2} colSpan={4}>Mahan Salavati</th>
-                    <th rowSpan={2} colSpan={4}>Anthony Cheung</th>
-                </tr>
+                <TableRow />
                 <tr></tr>
                 <tr className='light-brown'>
                     <th rowSpan={2} colSpan={2}>Empl no:</th>
