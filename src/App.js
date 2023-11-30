@@ -8,18 +8,16 @@ import { MyContext } from './myContext';
 
 function App() {
   const [date, setDate] = useState("");
-  const [startTimes, setTimesHours] = useState({startTimes: {}});
+  const [startTimes, setTimesHours] = useState("--:--");
   const [finishTimes, setFinishTimes] = useState("--:--");
   const [totalHours, setTotalHours] = useState("--Hrs");
-  const [startOrFinishCellCount, setStartOrFinishCellCount] = useState(0);
 
   return (
     <MyContext.Provider value={{
     date: [ date, setDate ], 
     startTimes: [startTimes, setTimesHours], 
     finishTimes: [finishTimes, setFinishTimes], 
-    totalHours: [ totalHours, setTotalHours ],
-    startOrFinishCellCount: [startOrFinishCellCount, setStartOrFinishCellCount]
+    totalHours: [ totalHours, setTotalHours ]
     }}>
       <div className="App d-flex flex-column align-items-center container-fluid">
         <GatherAndGatherLogo />
