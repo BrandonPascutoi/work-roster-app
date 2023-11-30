@@ -4,6 +4,7 @@ import DateInputCell from './DateUserInputTableData/DateUserInputTableData';
 import TimeInputCell from './TimeUserInputTableData/TimeUserInputTableData';
 import TotalHoursWorkedValueCell from './TotalHoursWorkedValueCell/TotalHoursWorkedValueCell';
 import TableRow from './TableRow/TableRow';
+import TableHeader from './TableRow/TableHeader/TableHeader';
 
 const RosterHoursTable = () => {
 
@@ -28,17 +29,24 @@ const RosterHoursTable = () => {
     return (
         <table className='w-100 table-bordered'>
             {isPortrait ? <tbody>
+                <TableRow>
+                    <TableHeader rowSpan={4} colSpan={4} className="dark-brown" value='Employee Information' />
+                    <TableHeader rowSpan={2} colSpan={2} value='Name:' />
+                    <TableHeader rowSpan={2} colSpan={4} value='Aisling McCurtin' />
+                    <TableHeader rowSpan={2} colSpan={4} value='Brandon Pascutoi' />
+                    <TableHeader rowSpan={2} colSpan={4} value='Mahan Salavati' />
+                    <TableHeader rowSpan={2} colSpan={4} value='Anthony Cheung' />
+                </TableRow>
                 <TableRow />
-                <tr></tr>
-                <tr className='light-brown'>
-                    <th rowSpan={2} colSpan={2}>Empl no:</th>
+                <TableRow className='light-brown'>
+                    <TableHeader rowSpan={2} colSpan={2} value="Empl no:"/>
                     <td rowSpan={2} colSpan={4}></td>
                     <td rowSpan={2} colSpan={4}></td>
                     <td rowSpan={2} colSpan={4}></td>
                     <td rowSpan={2} colSpan={4}></td>
-                </tr>
-                <tr></tr>
-                <tr>
+                </TableRow>
+                <TableRow />
+                <TableRow>
                     <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
                     <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <th colSpan={2}>Start:</th>
@@ -50,7 +58,7 @@ const RosterHoursTable = () => {
                     <th colSpan={2} className='light-brown'>Total↓</th>
                     <TimeInputCell colSpan={2}/>
                     <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
+                </TableRow>
                 <tr className='light-brown'>
                     <th colSpan={2}>Finish</th>
                     <TimeInputCell colSpan={2}/>
