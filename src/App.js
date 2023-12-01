@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import GatherAndGatherLogo from './components/GatherAndGatherLogo/GatherAndGatherLogo';
 import WeekStartingInput from './components/WeekStartingInput/WeekStartingInput';
