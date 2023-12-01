@@ -5,6 +5,7 @@ import TimeInputCell from './TimeUserInputTableData/TimeUserInputTableData';
 import TotalHoursWorkedValueCell from './TotalHoursWorkedValueCell/TotalHoursWorkedValueCell';
 import TableRow from './TableRow/TableRow';
 import TableHeader from './TableRow/TableHeader/TableHeader';
+import TableData from './TableRow/TableData/TableData';
 
 const RosterHoursTable = () => {
 
@@ -40,27 +41,27 @@ const RosterHoursTable = () => {
                 <TableRow />
                 <TableRow className='light-brown'>
                     <TableHeader rowSpan={2} colSpan={2} value="Empl no:"/>
-                    <td rowSpan={2} colSpan={4}></td>
-                    <td rowSpan={2} colSpan={4}></td>
-                    <td rowSpan={2} colSpan={4}></td>
-                    <td rowSpan={2} colSpan={4}></td>
+                    <TableData rowSpan={2} colSpan={4} />
+                    <TableData rowSpan={2} colSpan={4} />
+                    <TableData rowSpan={2} colSpan={4} />
+                    <TableData rowSpan={2} colSpan={4} />
                 </TableRow>
                 <TableRow />
                 <TableRow>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Mon</th>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Mon" />
                     <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
@@ -69,385 +70,385 @@ const RosterHoursTable = () => {
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Tue</th>
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Tue" />
                     <DateInputCell dateIncrement={1} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Wed</th>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Wed" />
                     <DateInputCell dateIncrement={2} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Thur</th>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Thur" />
                     <DateInputCell dateIncrement={3} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Fri</th>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Fri" />
                     <DateInputCell dateIncrement={4} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sat</th>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Sat" />
                     <DateInputCell dateIncrement={5} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={2} className='dark-brown'>Sun</th>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Sun" />
                     <DateInputCell dateIncrement={6} rowSpan={2} colSpan={2}/>
-                    <th colSpan={2}>Start:</th>
+                    <TableHeader colSpan={2} value="Start:" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                     <TimeInputCell colSpan={2}/>
-                    <th colSpan={2} className='light-brown'>Total↓</th>
-                </tr>
-                <tr className='light-brown'>
-                    <th colSpan={2}>Finish</th>
-                    <TimeInputCell colSpan={2}/>
-                    <TotalHoursWorkedValueCell />
+                    <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableHeader colSpan={2} value="Finish" />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
                     <TimeInputCell colSpan={2}/>
                     <TotalHoursWorkedValueCell />
-                </tr>
-                <tr>
-                    <th rowSpan={4} colSpan={6} className='dark-brown'>Total Week Hours</th>
-                    <th colSpan={4}>Total Hours:</th>
-                    <th colSpan={4}>Total Hours:</th>
-                    <th colSpan={4}>Total Hours:</th>
-                    <th colSpan={4}>Total Hours:</th>
-                </tr>
-                <tr className='light-brown'>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                </tr>
-                <tr>
-                    <th colSpan={4}>Signed:</th>
-                    <th colSpan={4}>Signed:</th>
-                    <th colSpan={4}>Signed:</th>
-                    <th colSpan={4}>Signed:</th>
-                </tr>
-                <tr className='light-brown'>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                    <td colSpan={4}></td>
-                </tr>
+                    <TimeInputCell colSpan={2}/>
+                    <TotalHoursWorkedValueCell />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={4} colSpan={6} className='dark-brown' value="Total Week Hours" />
+                    <TableHeader colSpan={4} value="Total Hours:" />
+                    <TableHeader colSpan={4} value="Total Hours:" />
+                    <TableHeader colSpan={4} value="Total Hours:" />
+                    <TableHeader colSpan={4} value="Total Hours:" />
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                </TableRow>
+                <TableRow>
+                    <TableHeader colSpan={4} value="Signed:"/>
+                    <TableHeader colSpan={4} value="Signed:"/>
+                    <TableHeader colSpan={4} value="Signed:"/>
+                    <TableHeader colSpan={4} value="Signed:"/>
+                </TableRow>
+                <TableRow className='light-brown'>
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                    <TableData colSpan={4} />
+                </TableRow>
             </tbody> : 
             <tbody>
-                <tr className='dark-brown'>
-                    <th rowSpan={4} colSpan={4}>Employee Information</th>
-                    <th rowSpan={3} colSpan={2}>Monday</th>
-                    <th rowSpan={3} colSpan={2}>Tuesday</th>
-                    <th rowSpan={3} colSpan={2}>Wednesday</th>
-                    <th rowSpan={3} colSpan={2}>Thursday</th>
-                    <th rowSpan={3} colSpan={2}>Friday</th>
-                    <th rowSpan={3} colSpan={2}>Saturday</th>
-                    <th rowSpan={3} colSpan={2}>Sunday</th>
-                    <th rowSpan={6} colSpan={4}>Total Week Hours</th>
-                </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr className='light-blue'>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                    <td colSpan={2}>&gt;Insert Date&lt;</td>
-                </tr>
-                <tr>
-                    <th rowSpan={1} colSpan={3}>Name</th>
-                    <th rowSpan={2}>Weekly Hours</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                    <th rowSpan={2}>Start</th>
-                    <th rowSpan={2} className='light-brown'>Finish</th>
-                </tr>
-                <tr>
-                    <th rowSpan={1} colSpan={3} className='light-brown'>Employee Number</th>
-                </tr>
-                <tr>
-                    <th rowSpan={2} colSpan={3}>Aisling McCurtin</th>
-                    <th rowSpan={4}></th>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
-                </tr>
-                <tr></tr>
-                <tr>
+                <TableRow className='dark-brown'>
+                    <TableHeader rowSpan={4} colSpan={4} value="Employee Information" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Monday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Tuesday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Wednesday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Thursday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Friday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Saturday" />
+                    <TableHeader rowSpan={3} colSpan={2} value="Sunday" />
+                    <TableHeader rowSpan={6} colSpan={4} className='dark-brown' value="Total Week Hours" />
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow></TableRow>
+                <TableRow className='light-blue'>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={1} colSpan={3} value="Name" />
+                    <TableHeader rowSpan={2} value="Weekly Hours" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                    <TableHeader rowSpan={2} value="Start" />
+                    <TableHeader rowSpan={2} className='light-brown' value="Finish" />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={1} colSpan={3} className='light-brown' value="Employee Number" />
+                </TableRow>
+                <TableRow>
+                    <TableHeader rowSpan={2} colSpan={3} value="Aisling McCurtin" />
+                    <TableHeader rowSpan={4} />
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TableHeader rowSpan={2} colSpan={4} value="Signed:" className="text-start"/>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2}></th>
                     <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                </tr>
-                <tr></tr>
-                <tr>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <th rowSpan={2} colSpan={3}>Brandon Pascutoi</th>
-                    <th rowSpan={4}></th>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
-                </tr>
-                <tr></tr>
-                <tr>
+                    <TableHeader rowSpan={4} />
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TableHeader rowSpan={2} colSpan={4} value="Signed:" className="text-start"/>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2}></th>
                     <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                </tr>
-                <tr></tr>
-                <tr>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <th rowSpan={2} colSpan={3}>Mahan Salavati</th>
-                    <th rowSpan={4}></th>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
-                </tr>
-                <tr></tr>
-                <tr>
+                    <TableHeader rowSpan={4} />
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TableHeader rowSpan={2} colSpan={4} value="Signed:" className="text-start"/>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2}></th>
                     <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                </tr>
-                <tr></tr>
-                <tr>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <th rowSpan={2} colSpan={3}>Anthony Cheung</th>
-                    <th rowSpan={4}></th>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} contentEditable></td>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
-                    <td rowSpan={2} colSpan={4} className='text-start ps-1'>Signed:</td>
-                </tr>
-                <tr></tr>
-                <tr>
+                    <TableHeader rowSpan={4} />
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TimeInputCell rowSpan={2}/>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
+                    <TableHeader rowSpan={2} colSpan={4} value="Signed:" className="text-start"/>
+                </TableRow>
+                <TableRow></TableRow>
+                <TableRow>
                     <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2} className='light-brown'>Total:</th>
-                    <td rowSpan={2} className='light-brown' contentEditable></td>
+                    <TimeInputCell rowSpan={2} className="light-brown"/>
                     <th rowSpan={2}></th>
                     <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
                     <th rowSpan={2}></th>
-                </tr>
-                <tr></tr>
+                </TableRow>
+                <TableRow></TableRow>
             </tbody>}
         </table>
         )
