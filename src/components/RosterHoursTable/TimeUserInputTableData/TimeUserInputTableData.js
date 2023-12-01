@@ -9,7 +9,7 @@ function TimeInputCell(props) {
   };
 
   return (
-    <td rowSpan={props.rowSpan} colSpan={props.colSpan}>
+    <td rowSpan={props.rowSpan} colSpan={props.colSpan} className={props.className}>
       <input
         type="time"
         value={inputValue}
