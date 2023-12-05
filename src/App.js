@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import GatherAndGatherLogo from './components/GatherAndGatherLogo/GatherAndGatherLogo';
 import WeekStartingInput from './components/WeekStartingInput/WeekStartingInput';
@@ -8,16 +8,18 @@ import { MyContext } from './myContext';
 
 function App() {
   const [date, setDate] = useState("");
-  const [startTimes, setTimesHours] = useState("--:--");
+  const [startTimes, setTimesHours] = useState({startTimes: {}});
   const [finishTimes, setFinishTimes] = useState("--:--");
   const [totalHours, setTotalHours] = useState("--Hrs");
+  const [startOrFinishCellCount, setStartOrFinishCellCount] = useState(0);
 
   return (
     <MyContext.Provider value={{
     date: [ date, setDate ], 
     startTimes: [startTimes, setTimesHours], 
     finishTimes: [finishTimes, setFinishTimes], 
-    totalHours: [ totalHours, setTotalHours ]
+    totalHours: [ totalHours, setTotalHours ],
+    startOrFinishCellCount: [startOrFinishCellCount, setStartOrFinishCellCount]
     }}>
       <div className="App d-flex flex-column align-items-center container-fluid">
         <GatherAndGatherLogo />
