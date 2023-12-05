@@ -306,28 +306,28 @@ const RosterHoursTable = () => {
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableData rowSpan={2} colSpan={3} className="light-brown"/>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
-                    <th rowSpan={2}></th>
+                    <TableHeader rowSpan={2} />
+                    <TableData rowSpan={2} colSpan={2} className="light-brown" />
+                    <TableHeader rowSpan={2} />
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <th rowSpan={2} colSpan={3}>Brandon Pascutoi</th>
+                    <TableHeader rowSpan={2} colSpan={3} value="Brandon Pascutoi" />
                     <TableHeader rowSpan={4} />
                     <TimeInputCell rowSpan={2}/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
@@ -347,28 +347,28 @@ const RosterHoursTable = () => {
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableData rowSpan={2} colSpan={3} className="light-brown"/>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
-                    <th rowSpan={2}></th>
+                    <TableHeader rowSpan={2} />
+                    <TableData rowSpan={2} colSpan={2} className="light-brown" />
+                    <TableHeader rowSpan={2} />
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <th rowSpan={2} colSpan={3}>Mahan Salavati</th>
+                    <TableHeader rowSpan={2} colSpan={3} value="Mahan Salavati" />
                     <TableHeader rowSpan={4} />
                     <TimeInputCell rowSpan={2}/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
@@ -388,28 +388,28 @@ const RosterHoursTable = () => {
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableData rowSpan={2} colSpan={3} className="light-brown"/>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
-                    <th rowSpan={2}></th>
+                    <TableHeader rowSpan={2} />
+                    <TableData rowSpan={2} colSpan={2} className="light-brown" />
+                    <TableHeader rowSpan={2} />
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <th rowSpan={2} colSpan={3}>Anthony Cheung</th>
+                    <TableHeader rowSpan={2} colSpan={3} value="Anthony Cheung" />
                     <TableHeader rowSpan={4} />
                     <TimeInputCell rowSpan={2}/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
@@ -429,24 +429,24 @@ const RosterHoursTable = () => {
                 </TableRow>
                 <TableRow></TableRow>
                 <TableRow>
-                    <td rowSpan={2} colSpan={3} className='light-brown' contentEditable></td>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableData rowSpan={2} colSpan={3} className="light-brown"/>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2} className='light-brown'>Total:</th>
+                    <TableHeader rowSpan={2} className="light-brown" value="Total:"/>
                     <TimeInputCell rowSpan={2} className="light-brown"/>
-                    <th rowSpan={2}></th>
-                    <td rowSpan={2} colSpan={2} className='light-brown' contentEditable></td>
-                    <th rowSpan={2}></th>
+                    <TableHeader rowSpan={2} />
+                    <TableData rowSpan={2} colSpan={2} className="light-brown" />
+                    <TableHeader rowSpan={2} />
                 </TableRow>
                 <TableRow></TableRow>
             </tbody>}
