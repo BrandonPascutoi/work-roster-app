@@ -256,13 +256,13 @@ const RosterHoursTable = () => {
                 <TableRow></TableRow>
                 <TableRow></TableRow>
                 <TableRow className='light-blue'>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
-                    <TableData colSpan={2} value="&gt;Insert Date&lt;"/>
+                    <DateInputCell dateIncrement={0} colSpan={2}/>
+                    <DateInputCell dateIncrement={1} colSpan={2}/>
+                    <DateInputCell dateIncrement={2} colSpan={2}/>
+                    <DateInputCell dateIncrement={3} colSpan={2}/>
+                    <DateInputCell dateIncrement={4} colSpan={2}/>
+                    <DateInputCell dateIncrement={5} colSpan={2}/>
+                    <DateInputCell dateIncrement={6} colSpan={2}/>
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={1} colSpan={3} value="Name" />
