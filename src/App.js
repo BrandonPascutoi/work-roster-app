@@ -8,7 +8,7 @@ import { MyContext } from './myContext';
 
 function App() {
   const [date, setDate] = useState("");
-  const [startTimes, setTimesHours] = useState({startTimes: {}});
+  const [startTimes, setTimesHours] = useState({});
   const [finishTimes, setFinishTimes] = useState("--:--");
   const [totalHours, setTotalHours] = useState("--Hrs");
   const [startOrFinishCellCount, setStartOrFinishCellCount] = useState(0);
