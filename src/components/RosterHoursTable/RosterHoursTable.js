@@ -51,168 +51,168 @@ const RosterHoursTable = () => {
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Mon" />
                     <DateInputCell dateIncrement={0} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={0}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={1}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={2}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={3}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={4}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={5}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={6}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={7}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Tue" />
                     <DateInputCell dateIncrement={1} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={8}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={9}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={10}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={11}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={12}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={13}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={14}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={15}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Wed" />
                     <DateInputCell dateIncrement={2} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={16}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={17}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={18}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={19}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={20}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={21}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={22}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={23}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Thur" />
                     <DateInputCell dateIncrement={3} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={24}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={25}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={26}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={27}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={28}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={29}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={30}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={31}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                 <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Fri" />
                     <DateInputCell dateIncrement={4} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={32}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={33}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={34}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={35}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={36}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={37}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={38}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={39}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Sat" />
                     <DateInputCell dateIncrement={5} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={40}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={41}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={42}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={43}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={44}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={45}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={46}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={47}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
                     <TableHeader rowSpan={2} colSpan={2} className='dark-brown' value="Sun" />
                     <DateInputCell dateIncrement={6} rowSpan={2} colSpan={2}/>
                     <TableHeader colSpan={2} value="Start:" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={48}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={49}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={50}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={51}/>
                     <TableHeader colSpan={2} className='light-brown' value ="Total↓" />
                 </TableRow>
                 <TableRow className='light-brown'>
                     <TableHeader colSpan={2} value="Finish" />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={52}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={53}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={54}/>
                     <TotalHoursWorkedValueCell />
-                    <TimeInputCell colSpan={2}/>
+                    <TimeInputCell colSpan={2} timeInputCellArrayIndex={55}/>
                     <TotalHoursWorkedValueCell />
                 </TableRow>
                 <TableRow>
